@@ -1,7 +1,7 @@
+import React from 'react';
 import './App.css';
-import map from './countries/map.png'
-import Europe from './countries/Europe/europe.js'
-
+import map from './countries/map.png';
+import Europe from './countries/Europe/europe';
 
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
       <svg viewBox="0 0 2457.3333 1266.6667">
         <Europe />
       </svg>
-      <img src={map} />
+      <img src={map} alt="map"/>
     </div>
   );
 }
