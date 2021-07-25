@@ -1,0 +1,17 @@
+.map {
+  position: relative;
+  text-align: center;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 99.6%;
+  width: 100%;
+}
+
+path:hover {
+    
+    opacity: .5;
+}
